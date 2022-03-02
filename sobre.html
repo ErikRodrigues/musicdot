@@ -81,9 +81,11 @@
             <!--a class="top" href="#home">Inicio</a-->
         
 <h2 class="subtitulo">Contato</h2>
-<h3>Correspondência</h3>
+
+<div class="contato_secao">
+<h3 class="contato_subtitulo">Correspondência</h3>
 <p>(Todos os dias, das 9h às 18h)</p>
-<address>
+<address class="contato_info">
    AOVS Sistema de informática S.A
    <br>
    Rua Vergueiro, 3185, 8 andar
@@ -91,14 +93,27 @@
    Vila Marina
    <br>
    São Paulo - SP</address>
-<h2 class="subtitulo">Telefones</h2>
-<h3>(Segunda à sexta, das 9h às 18h)</h3>  
-<dl>
-<dt>Pessoa Física:</dt>
- <dd><a href="tel://114118-3319">(11)4118-3319</a></dd>   
-<dt>Pessoa Jurídica:</dt>
- <dd><a href="tel://114118-2172">(11)4118-2172</a></dd>   
+</div>
 
+<div id="contato" class="contato__secao contato__secao--telefone">
+<h3 class="contato_info">Telefones</h3>
+<small>(Segunda à sexta, das 9h às 18h)</small>  
+<dl class="contato_info">
+<div>
+<dt class="contato_info-titulo">Pessoa Física:</dt>
+ <dd class="contato_info-descricao"><a href="tel://114118-3319">(11)4118-3319</a></dd>   
+</div>
+
+<div>
+<dt class="contato_info-titulo">Pessoa Jurídica:</dt>
+ <dd class="contato_info-descricao"><a href="tel://114118-2172">(11)4118-2172</a></dd>   
+</div>
 </dl>
+</div>
+
+<footer class="rodape"> 
+<img src= "img/logo.svg" alt="Logo da musicdot" class="rodape__logo">
+ <p class="rodape__copyright"> &copy; Copyright MusicDot </p>
+</footer>
     </body>
 </html>
